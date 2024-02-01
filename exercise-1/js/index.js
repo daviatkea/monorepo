@@ -1,3 +1,5 @@
 import { randomNumber } from "../../utils.js";
 
-console.log(randomNumber(10));
+console.log("Hello from index.js");
+
+document.body.append(randomNumber(10));
